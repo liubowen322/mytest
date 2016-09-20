@@ -25,6 +25,7 @@ class Helper
     {
         $str = self::convertToLowercase($str);
 		echo 1111;exit;
+		echo "ceshi";exit;
         return preg_replace_callback(
             '/_([a-z])/',
             function ($match) {
