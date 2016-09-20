@@ -24,6 +24,7 @@ class Helper
     public static function camelCase($str)
     {
         $str = self::convertToLowercase($str);
+		echo "ceshi";exit;
         return preg_replace_callback(
             '/_([a-z])/',
             function ($match) {
